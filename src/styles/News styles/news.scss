@@ -1,0 +1,255 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 0.4s;
+}
+@import '../config.scss';
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home-carousel {
+    width: 100vw;
+    height: 80vh;
+}
+.home-carousel-imgs {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+// home new movies
+.mainNewSlider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: min-content;
+    transition: 0.4s;
+}
+.home-new-movies {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 550px;
+    border: 8px solid rgb(0, 110, 255);
+    border-radius: 4mm;
+    overflow: hidden;
+    transition: 1s;
+}
+.home-new-movies-items {
+    width: 500px;
+    height: 450px;
+    border: 4px solid rgb(0, 17, 255);
+    border-radius: 4mm;
+    display: block;
+    color: white;
+    margin: 50px;
+    .home-new-movies-items-imges{
+        width: 400px;
+        height: 400px;
+        object-fit: fill;
+        cursor: zoom-in;
+        transition: 0.4s;
+        border-radius: 4mm;
+    };
+    .home-new-movies-items-imges:active {
+        cursor: zoom-out;
+        scale: 1.25;
+        border: 7px solid rgb(0, 110, 255);
+        border-radius: 2.4mm;
+    };
+    p {
+        font-size: larger;
+        font-weight: 900;
+        text-transform: capitalize;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    a {
+        text-decoration: none;
+        color: green;
+    }
+}
+.slider-btn-right {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 225, 255);
+    cursor: pointer;
+    text-transform: capitalize;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.2s;
+}
+.slider-btn-left {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 225, 255);
+    cursor: pointer;
+    text-transform: capitalize;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    transition: 0.2s;
+
+}
+.slider-btn-left:hover {
+    background-color: rgb(0, 110, 255);
+}
+.slider-btn-right:hover {
+    background-color: rgb(0, 110, 255);
+}
+.home-header{
+    margin-top: 100px;
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+// movie list 
+.movies-list{
+    margin-top: 100px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 400px 400px 400px;
+    width: 90vw;
+    height: auto;
+}
+// media resizing
+@media screen and (max-width:1200px){
+    .movies-list{
+        margin-top: 100px;
+        position: absolute;
+        left: 1%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 300px 300px 300px;
+        width: 90vw;
+        height: auto;
+    }
+}
+@media screen and (max-width:1000px){
+    .home-new-movies{
+        height: 450px;
+    }
+    .home-new-movies-items {
+        width: 400px;
+        height: 350px;
+        .home-new-movies-items-imges {
+            width: 300px;
+            height: 300px;
+            object-fit: fill;
+            cursor: zoom-in;
+            transition: 0.4s;
+            border-radius: 2mm;
+        };
+        .home-new-movies-items-imges:active {
+            cursor: zoom-out;
+            scale: 1.2;
+            border: 5px solid rgb(0, 110, 255);
+            border-radius: 1.4mm;
+        };
+        p {
+            font-size: larger;
+            font-weight: 700;
+            text-transform: capitalize;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    .movies-list{
+        margin-top: 100px;
+        position: absolute;
+        left: 1%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 240px 240px 240px;
+        width: 90vw;
+        height: auto;
+    }
+}
+@media screen and (max-width:700px){
+    .home-carousel {
+        height: 40vh;
+    }
+    .home-new-movies{
+        height: 350px;
+    }
+    .home-new-movies-items {
+        width: 200px;
+        height: 250px;
+        margin: 20px;
+        .home-new-movies-items-imges {
+            width: 200px;
+            height: 200px;
+            border-radius: 2mm;
+        };
+        .home-new-movies-items-imges:active {
+            border: 2px solid rgb(0, 110, 255);
+            border-radius: 1.4mm;
+        };
+        p {
+            font-size: larger;
+            font-weight: 500;
+            text-transform: capitalize;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    .movies-list{
+        margin-top: 100px;
+        position: absolute;
+        left: 1%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 210px 210px 210px;
+        width: 90vw;
+        height: auto;
+    }
+}
+@media screen and (max-width:600px){
+    .home-new-movies{
+        height: 250px;
+    }
+    .home-new-movies-items {
+        width: 150px;
+        height: 150px;
+        .home-new-movies-items-imges {
+            width: 150px;
+            height: 100px;
+            border-radius: 2mm;
+        };
+        p {
+            font-size: medium;
+            font-weight: 500;
+            text-transform: capitalize;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    .movies-list{
+        margin-top: 100px;
+        position: absolute;
+        left: 5%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 170px 170px;
+        width: 90vw;
+        height: auto;
+    }
+}
+@media screen and (max-width:400px){
+    .movies-list{
+        margin-top: 100px;
+        position: absolute;
+        left: 0%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 50vw;
+        width: 90vw;
+        height: auto;
+    }
+}

@@ -1,0 +1,154 @@
+[
+    {
+        "id":1,
+        "name":"Morbius",
+        "title":"Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+        "date":2022,
+        "language":"eng",
+        "category":"fantasy",
+"img":"https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/morbius_onesheet_1400x2100_he.jpg?itok=-jQVkWIe",
+"video":"https://www.youtube.com/embed/oZ6iiRrz1SY"
+    },
+    {
+        "id":2,
+        "name":"Pinocchio",
+        "title":"A live action and CGI retelling of the beloved tale of a wooden puppet who embarks on a thrilling adventure to become a real boy. Other characters include Geppetto, the woodcarver who builds and treats Pinocchio as if he were his real son; Jiminy Cricket, who serves as Pinocchio’s guide as well as his conscience; the Blue Fairy; Honest John; Sofia the Seagull and The Coachman.",
+        "date":2022,
+        "language":"eng",
+        "category":"fantasy",
+"img":"https://s3.amazonaws.com/static.rogerebert.com/uploads/movie/movie_poster/pinocchio-2022/large_pinocchio-movie-poster-2022.jpeg",
+"video":"https://www.youtube.com/embed/2vNVGZGlUok"
+    },
+    {
+        "id":3,
+        "name":"Samaritan",
+        "title":"Thirteen year old Sam Cleary suspects that his mysteriously reclusive neighbor Mr. Smith is actually the legendary vigilante Samaritan, who was reported dead 20 years ago. With crime on the rise and the city on the brink of chaos, Sam makes it his mission to coax his neighbor out of hiding to save the city from ruin.",
+        "date":2022,
+        "language":"eng",
+        "category":"fantasy",
+"img":"https://images-na.ssl-images-amazon.com/images/I/812MObytSaL._RI_.jpg",
+"video":"https://www.youtube.com/embed/9FKnTxSC16E"
+    },
+    
+    {
+        "id":4,
+        "name":"The Sea Beast",
+        "title":"The life of a legendary sea monster hunter is turned upside down when a young girl stows away on his ship.",
+        "date":2022,
+        "language":"eng",
+        "category":"anime",
+"img":"https://flixpatrol.com/runtime/cache/files/posters/9/w350/9zfv4ap1e8ekoynzptyawhlkk0d.jpg",
+"video":"https://www.youtube.com/embed/P-E-IGQCsPo"
+    },
+    {
+        "id":5,
+        "name":"Welcome to the Club",
+        "title":"Heart set on becoming a princess, Lisa Simpson is surprised to learn being bad might be more fun.",
+        "date":2022,
+        "language":"eng",
+        "category":"anime",
+"img":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/698E22DD4201625E38F5AB1183A9AE81F7413BCC581CCCB8A4548EB7886A73C1/scale?width=1200&aspectRatio=1.78&format=jpeg",
+"video":"https://www.youtube.com/embed/IlQw3O8Mx64"
+    },
+    {
+        "id":6,
+        "name":"Homebound",
+        "title":"A young woman arrives at the home of her new husband's estranged family to find the children behaving in increasingly unnerving ways.",
+        "date":2021,
+        "language":"eng",
+        "category":"horror",
+"img":"https://a.ltrbxd.com/resized/film-poster/4/1/5/8/4/1/415841-homebound-0-230-0-345-crop.jpg?v=36cfd37dc4",
+"video":"https://www.youtube.com/embed/A_d_JXgvTbU"
+    },
+    {
+        "id":7,
+        "name":"This Is Joan Collins",
+        "title":"A feature-length documentary on the life of one of the last surviving actresses from the golden age of Hollywood – Joan Collins. This epic film is told from the ringside as Joan narrates her rollercoaster life story with her inimitable wit and verve. A worldwide television phenomenon with her decade-defining role in Dynasty, Collins shares her extraordinary archive and never before seen home movie footage, giving an intimate glimpse into one of the world’s most iconic figures. Against a backdrop of Collins’s own narration, her story showcases the extraordinary life of a woman who has lived through the glitz, the glamour and the enduring moments of Hollywood history, and survived it all with panache.",
+        "date":2021,
+        "language":"eng",
+        "category":"documentary",
+"img":"https://m.media-amazon.com/images/M/MV5BNTEwYzk3Y2UtZDE5NS00YzQ2LWI3NzMtNGIzY2IwNmRmY2VjXkEyXkFqcGdeQXVyODQzMDMzMzE@._V1_FMjpg_UX1000_.jpg",
+"video":"https://www.youtube.com/embed/uTWi5S2ewyo"
+    },
+    {
+        "id":8,
+        "name":"Hilda and the Mountain King",
+        "title":"We rejoin our heroine for her latest adventure just as she awakes to find herself... in the body of a troll! Her mum is worried sick, and now has to deal with the strange creature that seems to have taken Hilda’s place. Now, both of them are in a race to be reunited before Ahlberg and his safety patrol get the chance to use their new secret weapon to lay waste to the trolls, and Hilda along with them!",
+        "date":2021,
+        "language":"eng",
+        "category":"anime",
+"img":"https://flixpatrol.com/runtime/cache/files/posters/k/klltzs6akc5klto8roehsjouztw.webp",
+"video":"https://www.youtube.com/embed/4MnjzxvsBNM"
+    },
+    {
+        "id":9,
+        "name":"The Book of Boba Fett",
+        "title":"Legendary bounty hunter Boba Fett and mercenary Fennec Shand must navigate the galaxy’s underworld when they return to the sands of Tatooine to stake their claim on the territory once ruled by Jabba the Hutt and his crime syndicate.",
+        "date":2021,
+        "language":"eng",
+        "category":"fantasy",
+"img":"https://i0.wp.com/aiptcomics.com/wp-content/uploads/2021/11/Boba_Fett_Digital-KeyArt_Payoff_v2b_lg-min.jpg?ssl=1",
+"video":"https://www.youtube.com/embed/rOJ1cw6mohw"
+    },
+    {
+        "id":10,
+        "name":"Stay on Board: The Leo Baker Story",
+        "title":"Legendary bounty hunter Boba Fett and mercenary Fennec Shand must navigate the galaxy’s underworld when they return to the sands of Tatooine to stake their claim on the territory once ruled by Jabba the Hutt and his crime syndicate.",
+        "date":2022,
+        "language":"eng",
+        "category":"documentary",
+"img":"https://m.media-amazon.com/images/M/MV5BOTkwODI0NDItZDRmYy00MTgwLThmYjMtMzA4NjZlMDNlNDMzXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_FMjpg_UX1000_.jpg",
+"video":"https://www.youtube.com/embed/GeKMXJuiDaA"
+    },
+    {
+        "id":11,
+        "name":"Trainwreck: Woodstock '99",
+        "title":"Woodstock 1969 promised peace and music, but its '99 revival delivered days of rage, riots and real harm. Why did it go so horribly wrong?",
+        "date":2022,
+        "language":"eng",
+        "category":"documentary",
+"img":"https://flixpatrol.com/runtime/cache/files/posters/h/hfwnqtij2vxfzekrsykem0o9nwc.webp",
+"video":"https://www.youtube.com/embed/Tm5uUzbUwR4"
+    },
+    {
+        "id":12,
+        "name":"The Most Hated Man on the Internet",
+        "title":"Determined to remove her daughter's photos from a revenge porn website, a persistent mother launches an online crusade to shut down its cruel founder.",
+        "date":2022,
+        "language":"eng",
+        "category":"documentary",
+"img":"https://www.themoviedb.org/t/p/w500/l8vwwYBgr2noIIkEfHrg9Kt2KIu.jpg",
+"video":"https://www.youtube.com/embed/ySFpxEdKxMw"
+    },
+    {
+        "id":13,
+        "name":"John Wick",
+        "title":"Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+        "date":2014,
+        "language":"eng",
+        "category":"action",
+"img":"https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg",
+"video":"https://www.youtube.com/embed/C0BMx-qxsP4"
+    },
+    {
+        "id":14,
+        "name":"John Wick 2: Chapter 2",
+        "title":"John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
+        "date":2017,
+        "language":"eng",
+        "category":"action",
+"img":"https://m.media-amazon.com/images/M/MV5BMjE2NDkxNTY2M15BMl5BanBnXkFtZTgwMDc2NzE0MTI@._V1_.jpg",
+"video":"https://www.youtube.com/embed/XGk2EfbD_Ps"
+    },
+    {
+        "id":15,
+        "name":"John Wick: Chapter 3 – Parabellum",
+        "title":"Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+        "date":2019,
+        "language":"eng",
+        "category":"action",
+"img":"https://musicart.xboxlive.com/7/df1a5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+"video":"https://www.youtube.com/embed/M7XM597XO94"
+    }
+
+]

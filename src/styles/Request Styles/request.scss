@@ -1,0 +1,202 @@
+* {
+    text-transform: capitalize;
+}
+@import '../config.scss';
+
+.report {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: auto;
+}
+.report-form {
+    border: 2px solid black;
+    height: min-content;
+    padding: 20px;
+    background-color: #0077ff;
+    width: 90vw;
+    height: min-content;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4mm
+}
+.report-form-p {
+    @include report-p;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+// name
+.report-name {
+    font-size: xx-large;
+    font-weight: bold;
+    width: 80%;
+    color: black;
+}
+.report-form-name {
+    border: 2px solid black;
+    border-radius: 2.4mm;
+    padding-left: 10px;
+    font-size: x-large;
+    width: 40%;
+    height: min-content;
+    outline: none;
+}
+.report-form-name:focus {
+    border: 3px solid black;
+}
+// textarea
+.report-form-descr {
+    @include report-p
+}
+
+.report-textarea {
+    transition: 0.4s;
+    font-size: xx-large;
+    font-weight: 400;
+    width: 70%;
+    height: 200px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 2.4mm;
+    font-weight: 450;
+}
+.report-textarea:hover {
+    border: 4px solid black;
+}
+// date
+.report-form-date-name {
+    @include report-p
+}
+.report-form-date {
+    @include report-p;
+    border: 2px solid black;
+    width: 60%;
+    padding: 10px;
+}
+// submit
+.report-form-submit-name {
+    width: 400px;
+    height: min-content;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+}
+.report-form-submit {
+    border-radius: 1.4mm;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: x-large;
+    width: 200px;
+}
+.report-form-submit:hover {
+    border-radius: 2.4mm;
+    border: 5px solid black;
+}
+// media Resizing
+@media screen and (max-width:700px) {
+    .report-form-p {
+        font-size: x-large;
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+    .report-name {
+        font-size: x-large;
+    }
+    .report-form-name:focus {
+        border: 3px solid black;
+    }
+    .report-form-descr {
+        font-size: x-large;
+    }
+    .report-textarea {
+        font-size: x-large;
+        width: 70%;
+        height: 150px;
+        resize: none;
+        padding: 10px;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 2.4mm;
+    }
+    .report-form-date-name {
+        font-size: x-large;
+    }
+    .report-form-date {
+        font-size:x-large;
+        outline: none;
+        border: 2px solid black;
+        width: 50%;
+        padding: 10px;
+    }
+    .report-form-submit-name {
+        width: 400px;
+        height: min-content;
+        font-size: large;
+        font-weight: bold;
+    }
+    .report-form-submit {
+        border-radius: 1.4mm;
+        cursor: pointer;
+        transition: 0.4s;
+        font-size: x-large;
+        width: 100px;
+    }
+}
+@media screen and (max-width:550px) {
+    .report-form-p {
+        font-size: large;
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+    .report-name {
+        font-size: large;
+    }
+    .report-form-name {
+        border: 2px solid black;
+        border-radius: 2.4mm;
+        padding-left: 10px;
+        font-size: small;
+        width: 40%;
+        height: min-content;
+        outline: none;
+    }
+    .report-form-descr {
+        font-size: large;
+    }
+    .report-textarea {
+        font-size: large;
+        width: 70%;
+        height: 100px;
+        resize: none;
+        padding: 5px;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 2.4mm;
+    }
+    .report-form-date-name {
+        font-size: large;
+    }
+    .report-form-date {
+        font-size:small;
+        outline: none;
+        border: 2px solid black;
+        width: 50%;
+        padding: 5px;
+    }
+    .report-form-submit-name {
+        width: 70%;
+        height: min-content;
+        font-size: medium;
+    }
+    .report-form-submit {
+        border-radius: 1.4mm;
+        cursor: pointer;
+        transition: 0.4s;
+        font-size: medium;
+        width: 40%;
+    }
+}

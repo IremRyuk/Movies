@@ -1,0 +1,223 @@
+.movie-item {
+  width: 400px;
+  height: 570px;
+  border: 5px solid rgb(0, 132, 255);
+  margin-bottom: 100px;
+  border-radius: 4mm;
+}
+.movie-item img {
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  cursor: zoom-in;
+  scale: 1;
+  transition: 0.4s;
+}
+.movie-item img:active {
+  cursor: zoom-out;
+  scale: 1.4;
+  z-index: 7;
+}
+.movie-item p {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.movie-item a {
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+  font-size: larger;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 2.4mm;
+  transition: 0.2s;
+}
+.movie-item a:hover {
+  margin: 10px;
+  color: rgb(0, 132, 255);
+  background-color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .movie-item {
+    width: 350px;
+    height: 570px;
+    border: 5px solid rgb(0, 132, 255);
+    margin-bottom: 70px;
+    border-radius: 4mm;
+  }
+  .movie-item img {
+    margin: 0px;
+    width: 350px;
+    height: 370px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    cursor: zoom-in;
+    scale: 1;
+    transition: 0.4s;
+  }
+  .movie-item img:active {
+    cursor: zoom-out;
+    scale: 1.4;
+  }
+  .movie-item p {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+  }
+  .movie-item a {
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2.4mm;
+    transition: 0.2s;
+  }
+  .movie-item a:hover {
+    margin: 10px;
+    color: rgb(0, 132, 255);
+    background-color: white;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .movie-item {
+    width: 250px;
+    height: 430px;
+    border: 5px solid rgb(0, 132, 255);
+    margin-bottom: 40px;
+    border-radius: 4mm;
+  }
+  .movie-item img {
+    margin: 0px;
+    width: 250px;
+    height: 270px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    cursor: none;
+    scale: 1;
+    transition: 0.4s;
+  }
+  .movie-item img:active {
+    cursor: none;
+    scale: 1;
+  }
+  .movie-item p {
+    font-size: medium;
+  }
+  .movie-item a {
+    font-size: medium;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .movie-item {
+    width: 200px;
+    height: 370px;
+    border: 3px solid rgb(0, 132, 255);
+    margin-bottom: 20px;
+    border-radius: 4mm;
+  }
+  .movie-item img {
+    margin: 0px;
+    width: 200px;
+    height: 220px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    cursor: none;
+    scale: 1;
+    transition: 0.4s;
+  }
+  .movie-item img:active {
+    cursor: none;
+    scale: 1;
+  }
+  .movie-item p {
+    font-size: small;
+  }
+  .movie-item a {
+    font-size: medium;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .movie-item {
+    width: 150px;
+    height: 290px;
+    border: 3px solid rgb(0, 132, 255);
+    margin-bottom: 20px;
+    border-radius: 4mm;
+  }
+  .movie-item img {
+    margin: 0px;
+    width: 150px;
+    height: 150px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    cursor: none;
+    scale: 1;
+    transition: 0.4s;
+  }
+  .movie-item img:active {
+    cursor: none;
+    scale: 1;
+  }
+  .movie-item p {
+    font-size: small;
+  }
+  .movie-item a {
+    font-size: medium;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .movie-item {
+    width: 200px;
+    height: 290px;
+    border: 3px solid rgb(0, 132, 255);
+    margin-bottom: 20px;
+    border-radius: 4mm;
+  }
+  .movie-item img {
+    margin: 0px;
+    width: 200px;
+    height: 150px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    cursor: none;
+    scale: 1;
+    transition: 0.4s;
+  }
+  .movie-item img:active {
+    cursor: none;
+    scale: 1;
+  }
+  .movie-item p {
+    font-size: small;
+  }
+  .movie-item a {
+    font-size: medium;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .movie-item {
+    width: 170px;
+    height: 290px;
+    border: 3px solid rgb(0, 132, 255);
+    margin-bottom: 20px;
+    border-radius: 4mm;
+  }
+  .movie-item img {
+    margin: 0px;
+    width: 170px;
+    height: 150px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    cursor: none;
+    scale: 1;
+    transition: 0.4s;
+  }
+}/*# sourceMappingURL=movies.css.map */

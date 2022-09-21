@@ -1,0 +1,50 @@
+@import '../config.scss';
+.selMovMain {
+    margin-top: 170px;
+    width: 100vw;
+    height: 77vh;
+}
+.selMov {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    .selMovImgProp {
+        width: 40vw;
+        height: 70vh;
+    }
+    .selMovImg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: rgba(99, 99, 99, 0.253);
+    }
+    .selMovInfo{
+        display: block;
+        height: 70vh;
+    }
+    .selMovName {
+        @include selMovText;
+    }
+    .selMovRelDate {
+        @include selMovText;
+    }
+    .selMovTitle{
+        @include selMovText
+    }
+    .selMovLang{
+        @include selMovText
+    }
+}
+.selMovTrailer{
+    margin-top: 100px;
+    width: 90vw;
+    height: 80vh;
+}
+.YoutubeTrailer{
+    width:100%;
+    height: 80%;
+    border: none;
+    border: 4px solid rgb(0, 119, 255);
+    border-radius: 1.4mm;
+}
